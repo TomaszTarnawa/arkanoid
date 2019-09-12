@@ -41,7 +41,6 @@ class GameScene(SceneBase):
         platform = self.spritePlatform.sprites()[0]
         if ball.rect.center[1] > platform.rect.top:
             self.live -= 1
-            print(self.live)
             if not self.live:
                 self.SwitchToScene(EndScene("GAME OVER. Press ENTER to Try Again or ESCAPE to Quit"))
             self.start_move = False

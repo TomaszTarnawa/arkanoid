@@ -36,7 +36,6 @@ def run_game(width, height, fps, starting_scene):
 
         active_scene = active_scene.next
 
-
         pygame.display.flip()
         clock.tick(fps)
 
