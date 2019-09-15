@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 import pygame
 
-from Game.help_function import get_imag, if_is_dead
+from game.help_function import get_imag, if_is_dead
 
 
 class Bricks(ABC, pygame.sprite.Sprite):

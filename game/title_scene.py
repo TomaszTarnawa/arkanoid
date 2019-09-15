@@ -1,9 +1,9 @@
 import pygame
 from pygame import locals as key
 
-from Game.game_scene import GameScene
-from Game.help_function import create_text, font_preferences
-from Game.scene_base import SceneBase
+from game.game_scene import GameScene
+from game.help_function import create_text, font_preferences
+from game.scene_base import SceneBase
 
 
 class TitleScene(SceneBase):

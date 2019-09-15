@@ -2,14 +2,14 @@ import pygame
 
 from pygame.sprite import collide_rect, collide_circle, collide_mask, collide_rect_ratio
 
-from Game.ball import Ball, START_POSE_BALL, START_SPEED
-from Game.brick_factory import BrickFactory
-from Game.bricks import BlueBrick, BlueHardBrick, GreenBrick, GreenHardBrick, RedBrick, RedHardBrick, VeryHardBrick
-from Game.bricks_wall import BricksWall
-from Game.end_scene import EndScene
-from Game.help_function import get_imag
-from Game.platform import Platform, START_POSE_PLATFORM
-from Game.scene_base import SceneBase
+from game.ball import Ball, START_POSE_BALL, START_SPEED
+from game.brick_factory import BrickFactory
+from game.bricks import BlueBrick, BlueHardBrick, GreenBrick, GreenHardBrick, RedBrick, RedHardBrick, VeryHardBrick
+from game.bricks_wall import BricksWall
+from game.end_scene import EndScene
+from game.help_function import get_imag
+from game.platform import Platform, START_POSE_PLATFORM
+from game.scene_base import SceneBase
 
 
 class GameScene(SceneBase):

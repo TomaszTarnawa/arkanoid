@@ -2,8 +2,8 @@ from math import cos, sin, radians, sqrt
 
 import pygame
 
-from Game.help_function import get_imag
-from Game.moving_objects import MovingObjects
+from game.help_function import get_imag
+from game.moving_objects import MovingObjects
 
 START_POSE_BALL = 554, 573
 START_SPEED = 6, -6

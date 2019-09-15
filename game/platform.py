@@ -1,7 +1,7 @@
 import pygame
 
-from Game.help_function import get_imag
-from Game.moving_objects import MovingObjects
+from game.help_function import get_imag
+from game.moving_objects import MovingObjects
 
 START_POSE_PLATFORM = 559, 590
 

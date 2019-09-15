@@ -1,7 +1,7 @@
 import pygame
 
-from Game.help_function import font_preferences, create_text
-from Game.scene_base import SceneBase
+from game.help_function import font_preferences, create_text
+from game.scene_base import SceneBase
 
 
 class EndScene(SceneBase):
@@ -16,10 +16,10 @@ class EndScene(SceneBase):
             if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                 self.Terminate()
             if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
-                from Game.main import run_game
-                from Game.title_scene import TitleScene
-                from Game.buttons import PlayButton
-                from Game.buttons import QuitButton
+                from game.main import run_game
+                from game.title_scene import TitleScene
+                from game.buttons import PlayButton
+                from game.buttons import QuitButton
                 run_game(1118, 620, 60, TitleScene(PlayButton, QuitButton))
                 self.Terminate()
 

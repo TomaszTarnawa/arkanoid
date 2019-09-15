@@ -1,7 +1,7 @@
 import pygame
 
-from Game.buttons import PlayButton, QuitButton
-from Game.title_scene import TitleScene
+from game.buttons import PlayButton, QuitButton
+from game.title_scene import TitleScene
 
 
 def run_game(width, height, fps, starting_scene):
